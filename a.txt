@@ -1,3 +1,6 @@
 TT
 IS
 Beautiful
+
+Ubuntu terminal setting:
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;35;01m\]\u\[\033[00;00;01m\]@\[\033[01;35;01m\]\h\[\033[00;31;01m\]:\[\033[00;00;01m\]\w \[\033[01;32;01m\]\$ \[\033[01;37;01m\]'
